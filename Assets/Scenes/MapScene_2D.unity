@@ -87,6 +87,7 @@ GameObject:
   - 124: {fileID: 138714604}
   - 81: {fileID: 138714603}
   - 114: {fileID: 138714608}
+  - 114: {fileID: 138714609}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -172,6 +173,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textField: {fileID: 1866705085}
   stopModel: {fileID: 100010, guid: 1b6f0eff38909834d977614abbb5d199, type: 2}
+--- !u!114 &138714609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 138714602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04e902c1a93ec4a699bebc296cdec0ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stopsData: {fileID: 4900000, guid: 5f555b262bc6245c1bbdd99c3cbb4b0e, type: 3}
+  dataString: 
 --- !u!1 &323510154
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,7 +492,6 @@ MonoBehaviour:
   m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Priority: 3
   ignoreReversedGraphics: 1
   blockingObjects: 0
   m_BlockingMask:

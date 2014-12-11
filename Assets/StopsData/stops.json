@@ -1,0 +1,508 @@
+[
+{
+    "stop_id": "9206171",
+    "address": "Metrô Vila Mariana",
+    "lat": -23.589337,
+    "lon": -46.635259,
+    "dist": 73,
+    "trips": {
+      "476G-10-1": {
+        "route_id": "476G-10",
+        "headsign": "JARDIM ELBA",
+        "direction": "1"
+      },
+      "677A-10-1": {
+        "route_id": "677A-10",
+        "headsign": "TERM JD ÂNGELA",
+        "direction": "1"
+      },
+      "875M-10-1": {
+        "route_id": "875M-10",
+        "headsign": "AEROPORTO",
+        "direction": "1"
+      }
+    }
+  },
+  {
+    "stop_id": "920016027",
+    "address": "R. Domingos De Morais",
+    "lat": -23.589394,
+    "lon": -46.635235,
+    "dist": 79,
+    "trips": {
+      "476G-10-1": {
+        "route_id": "476G-10",
+        "headsign": "JARDIM ELBA",
+        "direction": "1"
+      },
+      "677A-10-1": {
+        "route_id": "677A-10",
+        "headsign": "TERM JD ÂNGELA",
+        "direction": "1"
+      },
+      "875M-10-1": {
+        "route_id": "875M-10",
+        "headsign": "AEROPORTO",
+        "direction": "1"
+      }
+    }
+  },
+  {
+    "stop_id": "920016366",
+    "address": "Av. Prof. Noé Azevedo, 260",
+    "lat": -23.588925,
+    "lon": -46.634769,
+    "dist": 110,
+    "trips": {
+      "5290-10-1": {
+        "route_id": "5290-10",
+        "headsign": "DIV. DIADEMA",
+        "direction": "1"
+      },
+      "5290-51-1": {
+        "route_id": "5290-51",
+        "headsign": "DIV. DIADEMA",
+        "direction": "1"
+      },
+      "574A-10-1": {
+        "route_id": "574A-10",
+        "headsign": "AMERICANOPOLIS",
+        "direction": "1"
+      },
+      "5791-10-1": {
+        "route_id": "5791-10",
+        "headsign": "ELDORADO",
+        "direction": "1"
+      },
+      "875A-10-1": {
+        "route_id": "875A-10",
+        "headsign": "AEROPORTO",
+        "direction": "1"
+      }
+    }
+  },
+  {
+    "stop_id": "920016363",
+    "address": "Av. Prof. Noé Azevedo, 208",
+    "lat": -23.58868,
+    "lon": -46.634409,
+    "dist": 149,
+    "trips": {
+      "407M-10-0": {
+        "route_id": "407M-10",
+        "headsign": "PRAÇA DA SÉ",
+        "direction": "0"
+      },
+      "476G-10-0": {
+        "route_id": "476G-10",
+        "headsign": "IBIRAPUERA",
+        "direction": "0"
+      },
+      "5290-10-0": {
+        "route_id": "5290-10",
+        "headsign": "PCA. JOAO MENDES",
+        "direction": "0"
+      },
+      "5290-51-0": {
+        "route_id": "5290-51",
+        "headsign": "TERM. AMARAL GURGEL",
+        "direction": "0"
+      },
+      "5791-10-0": {
+        "route_id": "5791-10",
+        "headsign": "METRÔ VERGUEIRO",
+        "direction": "0"
+      },
+      "875A-10-0": {
+        "route_id": "875A-10",
+        "headsign": "PERDIZES (VIA ARATÃS)",
+        "direction": "0"
+      },
+      "875H-10-1": {
+        "route_id": "875H-10",
+        "headsign": "TERMINAL  LAPA",
+        "direction": "1"
+      },
+      "875M-10-0": {
+        "route_id": "875M-10",
+        "headsign": "METRÔ BARRA FUNDA",
+        "direction": "0"
+      },
+      "917H-10-1": {
+        "route_id": "917H-10",
+        "headsign": "TERMINAL PIRITUBA",
+        "direction": "1"
+      },
+      "407M-10-1": {
+        "route_id": "407M-10",
+        "headsign": "VILA MONUMENTO",
+        "direction": 1
+      }
+    }
+  },
+  {
+    "stop_id": "920016365",
+    "address": "Av. Prof. Noé Azevedo",
+    "lat": -23.587921,
+    "lon": -46.634727,
+    "dist": 161,
+    "trips": {
+      "5290-10-1": {
+        "route_id": "5290-10",
+        "headsign": "DIV. DIADEMA",
+        "direction": "1"
+      },
+      "5290-51-1": {
+        "route_id": "5290-51",
+        "headsign": "DIV. DIADEMA",
+        "direction": "1"
+      },
+      "574A-10-1": {
+        "route_id": "574A-10",
+        "headsign": "AMERICANOPOLIS",
+        "direction": "1"
+      },
+      "5791-10-1": {
+        "route_id": "5791-10",
+        "headsign": "ELDORADO",
+        "direction": "1"
+      },
+      "875A-10-1": {
+        "route_id": "875A-10",
+        "headsign": "AEROPORTO",
+        "direction": "1"
+      }
+    }
+  },
+  {
+    "stop_id": "920010980",
+    "address": "R. Dr. Pinto Ferraz, 252",
+    "lat": -23.589627,
+    "lon": -46.634363,
+    "dist": 168,
+    "trips": {
+      "675X-10-0": {
+        "route_id": "675X-10",
+        "headsign": "METRÔ V. MARIANA",
+        "direction": "0"
+      },
+      "675X-10-1": {
+        "route_id": "675X-10",
+        "headsign": "TERMINAL GRAJAU",
+        "direction": "1"
+      }
+    }
+  },
+  {
+    "stop_id": "920010976",
+    "address": "Terminal Metrô Vila Mariana",
+    "lat": -23.589499,
+    "lon": -46.634293,
+    "dist": 169,
+    "trips": {
+      "875H-10-1": {
+        "route_id": "875H-10",
+        "headsign": "TERMINAL  LAPA",
+        "direction": "1"
+      },
+      "917H-10-1": {
+        "route_id": "917H-10",
+        "headsign": "TERMINAL PIRITUBA",
+        "direction": "1"
+      }
+    }
+  },
+  {
+    "stop_id": "920010969",
+    "address": "Terminal Metrô Vila Mariana",
+    "lat": -23.589407,
+    "lon": -46.634161,
+    "dist": 179,
+    "trips": {
+      "476L-10-0": {
+        "route_id": "476L-10",
+        "headsign": "CIRCULAR",
+        "direction": "0"
+      },
+      "476L-10-1": {
+        "route_id": "476L-10",
+        "headsign": "LAR ESCOLA SAO FCO.",
+        "direction": 1
+      }
+    }
+  },
+  {
+    "stop_id": "920010979",
+    "address": "R. Dr. Pinto Ferraz, 234",
+    "lat": -23.589619,
+    "lon": -46.634218,
+    "dist": 182,
+    "trips": {
+      "4709-10-1": {
+        "route_id": "4709-10",
+        "headsign": "JD. SÃO SAVERIO",
+        "direction": "1"
+      },
+      "476L-10-0": {
+        "route_id": "476L-10",
+        "headsign": "CIRCULAR",
+        "direction": "0"
+      },
+      "675X-10-0": {
+        "route_id": "675X-10",
+        "headsign": "METRÔ V. MARIANA",
+        "direction": "0"
+      },
+      "695T-10-1": {
+        "route_id": "695T-10",
+        "headsign": "TERM. CAPELINHA",
+        "direction": "1"
+      },
+      "476L-10-1": {
+        "route_id": "476L-10",
+        "headsign": "LAR ESCOLA SAO FCO.",
+        "direction": 1
+      }
+    }
+  },
+  {
+    "stop_id": "920010975",
+    "address": "Terminal Metrô Vila Mariana",
+    "lat": -23.589477,
+    "lon": -46.634045,
+    "dist": 192,
+    "trips": {
+      "4706-10-1": {
+        "route_id": "4706-10",
+        "headsign": "JD. MARIA ESTELA II",
+        "direction": "1"
+      },
+      "875H-10-1": {
+        "route_id": "875H-10",
+        "headsign": "TERMINAL  LAPA",
+        "direction": "1"
+      }
+    }
+  },
+  {
+    "stop_id": "920010978",
+    "address": "R. Dr. Pinto Ferraz, 226",
+    "lat": -23.589608,
+    "lon": -46.634066,
+    "dist": 195,
+    "trips": {
+      "695T-10-0": {
+        "route_id": "695T-10",
+        "headsign": "METRÔ VILA MARIANA",
+        "direction": "0"
+      },
+      "695T-10-1": {
+        "route_id": "695T-10",
+        "headsign": "TERM. CAPELINHA",
+        "direction": "1"
+      }
+    }
+  },
+  {
+    "stop_id": "9206527",
+    "address": "Terminal Metrô Vila Mariana",
+    "lat": -23.589393,
+    "lon": -46.633975,
+    "dist": 197,
+    "trips": {
+      "477U-10-1": {
+        "route_id": "477U-10",
+        "headsign": "HELIÓPOLIS",
+        "direction": "1"
+      }
+    }
+  },
+  {
+    "stop_id": "920010977",
+    "address": "R. Dr. Pinto Ferraz",
+    "lat": -23.589601,
+    "lon": -46.633955,
+    "dist": 206,
+    "trips": {
+      "4709-10-1": {
+        "route_id": "4709-10",
+        "headsign": "JD. SÃO SAVERIO",
+        "direction": "1"
+      },
+      "476L-10-0": {
+        "route_id": "476L-10",
+        "headsign": "CIRCULAR",
+        "direction": "0"
+      },
+      "675X-10-0": {
+        "route_id": "675X-10",
+        "headsign": "METRÔ V. MARIANA",
+        "direction": "0"
+      },
+      "695T-10-0": {
+        "route_id": "695T-10",
+        "headsign": "METRÔ VILA MARIANA",
+        "direction": "0"
+      },
+      "476L-10-1": {
+        "route_id": "476L-10",
+        "headsign": "LAR ESCOLA SAO FCO.",
+        "direction": 1
+      }
+    }
+  },
+  {
+    "stop_id": "920010974",
+    "address": "Terminal Metrô Vila Mariana",
+    "lat": -23.589461,
+    "lon": -46.633867,
+    "dist": 209,
+    "trips": {
+      "4708-10-1": {
+        "route_id": "4708-10",
+        "headsign": "JD. CLIMAX",
+        "direction": "1"
+      },
+      "875H-10-1": {
+        "route_id": "875H-10",
+        "headsign": "TERMINAL  LAPA",
+        "direction": "1"
+      }
+    }
+  },
+  {
+    "stop_id": "9206524",
+    "address": "R. Domingos De Morais, 1164",
+    "lat": -23.586871,
+    "lon": -46.635798,
+    "dist": 231,
+    "trips": {
+      "175P-10-0": {
+        "route_id": "175P-10",
+        "headsign": "ANA ROSA",
+        "direction": "0"
+      },
+      "175P-10-1": {
+        "route_id": "175P-10",
+        "headsign": "METRÔ SANTANA",
+        "direction": "1"
+      },
+      "407M-10-0": {
+        "route_id": "407M-10",
+        "headsign": "PRAÇA DA SÉ",
+        "direction": "0"
+      },
+      "407M-10-1": {
+        "route_id": "407M-10",
+        "headsign": "VILA MONUMENTO",
+        "direction": 1
+      }
+    }
+  },
+  {
+    "stop_id": "920010970",
+    "address": "Terminal Metrô Vila Mariana",
+    "lat": -23.58937,
+    "lon": -46.633766,
+    "dist": 217,
+    "trips": {
+      "695Y-10-0": {
+        "route_id": "695Y-10",
+        "headsign": "METRÔ VILA MARIANA",
+        "direction": "0"
+      },
+      "695Y-10-1": {
+        "route_id": "695Y-10",
+        "headsign": "TERM. PARELHEIROS",
+        "direction": "1"
+      }
+    }
+  },
+  {
+    "stop_id": "920010973",
+    "address": "Terminal Metrô Vila Mariana",
+    "lat": -23.589442,
+    "lon": -46.633676,
+    "dist": 228,
+    "trips": {
+      "4706-10-0": {
+        "route_id": "4706-10",
+        "headsign": "METRÔ VILA MARIANA",
+        "direction": "0"
+      },
+      "4708-10-0": {
+        "route_id": "4708-10",
+        "headsign": "METRÔ VILA MARIANA",
+        "direction": "0"
+      },
+      "875H-10-0": {
+        "route_id": "875H-10",
+        "headsign": "METRÔ VILA MARIANA",
+        "direction": "0"
+      },
+      "875H-10-1": {
+        "route_id": "875H-10",
+        "headsign": "TERMINAL  LAPA",
+        "direction": "1"
+      },
+      "917H-10-0": {
+        "route_id": "917H-10",
+        "headsign": "METRÔ VILA MARIANA",
+        "direction": "0"
+      }
+    }
+  },
+  {
+    "stop_id": "920010965",
+    "address": "Terminal Metrô Vila Mariana",
+    "lat": -23.589245,
+    "lon": -46.633521,
+    "dist": 239,
+    "trips": {
+      "274P-10-1": {
+        "route_id": "274P-10",
+        "headsign": "PENHA",
+        "direction": "1"
+      },
+      "407M-10-0": {
+        "route_id": "407M-10",
+        "headsign": "PRAÇA DA SÉ",
+        "direction": "0"
+      },
+      "475M-10-1": {
+        "route_id": "475M-10",
+        "headsign": "JD. DA SAUDE",
+        "direction": "1"
+      },
+      "477A-10-1": {
+        "route_id": "477A-10",
+        "headsign": "SACOMÃ",
+        "direction": "1"
+      },
+      "917H-10-0": {
+        "route_id": "917H-10",
+        "headsign": "METRÔ VILA MARIANA",
+        "direction": "0"
+      },
+      "407M-10-1": {
+        "route_id": "407M-10",
+        "headsign": "VILA MONUMENTO",
+        "direction": 1
+      }
+    }
+  },
+  {
+    "stop_id": "920010972",
+    "address": "Terminal Metrô Vila Mariana",
+    "lat": -23.589437,
+    "lon": -46.633519,
+    "dist": 243,
+    "trips": {
+      "875H-10-0": {
+        "route_id": "875H-10",
+        "headsign": "METRÔ VILA MARIANA",
+        "direction": "0"
+      }
+    }
+  }
+  ]

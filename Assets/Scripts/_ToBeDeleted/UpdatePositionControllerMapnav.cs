@@ -1,16 +1,12 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
-public class UpdatePositionController : MonoBehaviour 
+public class UpdatePositionControllerMapnav : MonoBehaviour 
 {
-	public GameObject	textField;
-	public GameObject 	stopModel;
-
-	private float		updateTime = 0.5f;
+	private float		updateTime = 5f;
 	private int maxWait = 20;
 	private int updateCount = 0;
-	private Text text;
 	private OnlineMapsMarker playerMarker;
 
 	// Use this for initialization
@@ -22,47 +18,36 @@ public class UpdatePositionController : MonoBehaviour
 			yield return 0;
 		}
 
-		Input.location.Start();
-		text = textField.GetComponent<Text>();
-		text.text = "Initializing... " + maxWait;
-
 		while (Input.location.status == LocationServiceStatus.Initializing && maxWait > 0) 
 		{
 			yield return new WaitForSeconds(1);
 			maxWait--;
-			text.text = "Initializing... " + maxWait;
 		}
 
 		if (maxWait < 1) 
 		{
-			text.text = "Timed out";
-			Debug.Log("Timed out");
+			Debug.Log("!!!!!!!!!!Timed out!!!!!!!!!!");
 			yield return 0;
 		}
 		else
 		{
-			Debug.Log("Service initialized!!!");
+			Debug.Log("!!!!!!!!!!Service initialized!!!!!!!!!!");
 		}
 
 		gameObject.GetComponent<StopsDataReader>().PopulateStopInfo();
-		DrawStops();
 
 
 		if (Input.location.status == LocationServiceStatus.Failed) 
 		{
 			Debug.Log("Unable to determine device location");
-			text.text = "Unable to localize";
 			yield return 0;
 		} 
 		else
 		{
 			StartCoroutine ("UpdatePosition");
 		}
-	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
+
+		GameObject.Find("StopsManager").GetComponent<StopsManager>().DrawStops();
 	}
 
 	IEnumerator UpdatePosition()
@@ -72,10 +57,10 @@ public class UpdatePositionController : MonoBehaviour
 		while (true)
 		{
 			yield return new WaitForSeconds(updateTime);
+			//GameObject.Find("Map").GetComponent<MapNav>().UpdateMapPosition();
 			//Debug.Log("Location: " + Input.location.lastData.latitude + " - " + Input.location.lastData.longitude + " - " + Input.location.lastData.timestamp);
-			text.text = updateCount + ": " + Input.location.lastData.latitude + " - " + Input.location.lastData.longitude;
 
-			if (updateCount == 0)
+			/*if (updateCount == 0)
 			{
 				playerMarker = OnlineMaps.instance.AddMarker(new Vector2(Input.location.lastData.longitude, Input.location.lastData.latitude));
 				OnlineMaps.instance.SetPositionAndZoom(Input.location.lastData.longitude, Input.location.lastData.latitude, 3);
@@ -90,29 +75,7 @@ public class UpdatePositionController : MonoBehaviour
 				//OnlineMaps.instance.SetPositionAndZoom(longitude, lat, OnlineMaps.instance.zoom);
 				//OnlineMaps.instance.Redraw();
 			}
-			updateCount++;
-		}
-	}
-
-	public void DrawStops()
-	{
-		OnlineMapsMarker3D marker3D;
-		// Get instance of OnlineMapsControlBase3D (Texture or Tileset)
-		OnlineMapsControlBase3D control = OnlineMaps.instance.GetComponent<OnlineMapsControlBase3D>();
-
-
-		//foreach (StaticStopsData.Stop s in StaticStopsData.stops)
-		foreach (Stop s in Stops.stops)
-		{
-			//Vector2 pos2d = OnlineMapsUtils.LatLongToTilef(api.position, api.zoom);
-
-			//OnlineMapsUtils.LatLongToTilef(api.position, api.zoom);
-			OnlineMapsMarker m = OnlineMaps.instance.AddMarker(new Vector2(s.lon, s.lat), s.address);
-			
-			// Specifies that marker should be shown only when zoom from 1 to 10.
-			//marker3D.range = new OnlineMapsRange(1, 17);
-			
-			//Debug.Log ("Latlongtotile = " + OnlineMapsUtils.LatLongToTilef(s.coord, OnlineMaps.instance.zoom) * OnlineMapsUtils.tileSize);
+			updateCount++;*/
 		}
 	}
 }
