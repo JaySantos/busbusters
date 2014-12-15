@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: 23fc90530388f4346a254a3e13fa536b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Orange_0
+    21300002: Orange_1
+    21300004: Orange_2
+    21300006: Orange_3
+    21300008: Orange_4
+    21300010: Orange_5
+    21300012: Orange_6
+    21300014: Orange_7
+    21300016: Orange_8
+    21300018: Orange_9
+    21300020: Orange_10
+    21300022: Orange_11
+    21300024: Orange_12
+    21300026: Orange_13
+    21300028: Orange_14
+    21300030: Orange_15
+    21300032: Orange_16
+    21300034: Orange_17
+    21300036: Orange_18
+    21300038: Orange_19
+    21300040: Orange_20
+    21300042: Orange_21
+    21300044: Orange_22
+    21300046: Orange_23
+    21300048: Orange_24
+    21300050: Orange_25
+    21300052: Orange_26
+    21300054: Orange_27
+    21300056: Orange_28
+    21300058: Orange_29
+    21300060: Orange_30
+    21300062: Orange_31
+    21300064: Orange_32
+    21300066: Orange_33
+    21300068: Orange_34
+    21300070: Orange_35
+    21300072: Orange_36
+    21300074: Orange_37
+    21300076: Orange_38
+    21300078: Orange_39
+    21300080: Orange_40
+    21300082: Orange_41
+    21300084: Orange_42
+    21300086: Orange_43
+    21300088: Orange_44
+    21300090: Orange_45
+    21300092: Orange_46
+    21300094: Orange_47
+    21300096: Orange_48
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Orange_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 3099
+        width: 295
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_1
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3099
+        width: 296
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_2
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 3099
+        width: 296
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_3
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 3099
+        width: 301
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_4
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 2919
+        width: 475
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_5
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 2919
+        width: 475
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_6
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 2842
+        width: 552
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2716
+        width: 295
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_8
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2716
+        width: 296
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_9
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 2716
+        width: 296
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_10
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 2716
+        width: 301
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_11
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 2260
+        width: 475
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_12
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 2260
+        width: 475
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_13
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 2183
+        width: 552
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2338
+        width: 300
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_15
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2338
+        width: 296
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_16
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 2338
+        width: 296
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_17
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 2338
+        width: 301
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1955
+        width: 300
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_19
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1955
+        width: 296
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_20
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1955
+        width: 296
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_21
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1955
+        width: 301
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_22
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 1829
+        width: 291
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_23
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1829
+        width: 286
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_24
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 1829
+        width: 291
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_25
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 1829
+        width: 286
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_26
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 1829
+        width: 285
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_27
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1572
+        width: 297
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_28
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1572
+        width: 296
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_29
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1572
+        width: 296
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_30
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1572
+        width: 301
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_31
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1417
+        width: 301
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_32
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 1417
+        width: 296
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_33
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 1417
+        width: 300
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_34
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 1417
+        width: 295
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_35
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1194
+        width: 295
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_36
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1194
+        width: 296
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_37
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1194
+        width: 296
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_38
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1194
+        width: 301
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_39
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1078
+        width: 1308
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 812
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_41
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 812
+        width: 296
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_42
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 812
+        width: 296
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_43
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 812
+        width: 301
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_44
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 807
+        width: 1308
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 430
+        width: 300
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_46
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 430
+        width: 296
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_47
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 429
+        width: 296
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Orange_48
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 429
+        width: 301
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

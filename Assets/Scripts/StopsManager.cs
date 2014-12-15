@@ -14,9 +14,9 @@ public class StopsManager : MonoBehaviour
 			SetGeolocation sg = go.GetComponent<SetGeolocation>();
 			sg.lat = s.lat;
 			sg.lon = s.lon;
-			Debug.Log("localscale = " + go.transform.localScale);
 			go.transform.localScale = new Vector3 (10f, 10f, 10f);
-			Debug.Log("localscale = " + go.transform.localScale);
+			StopUniqueID uid = go.GetComponent<StopUniqueID>();
+			uid.stop_id = s.stop_id;
 		}
 	}
 }

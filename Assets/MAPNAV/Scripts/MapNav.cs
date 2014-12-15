@@ -338,17 +338,12 @@ public class MapNav : MonoBehaviour
 	}
 	
 	void Check(){
-		Debug.Log("Check 1");
 		if(autoCenter && triDView == false){
-			Debug.Log("Check 2");
 			if(ready == true && mapping == false && gpsFix){
-				Debug.Log("Check 3");
 				if (rect.Contains(Vector2.Scale(mycam.WorldToViewportPoint (user.position), new Vector2(screenX, screenY)))){
-					Debug.Log("Check 4");
 					//DoNothing
 				}
 				else{
-					Debug.Log("Check 5");
 					centering=true;
 					 StartCoroutine(MapPosition());
 					 StartCoroutine(ReScale());	
